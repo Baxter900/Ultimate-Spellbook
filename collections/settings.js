@@ -183,13 +183,14 @@ settingsSchemaObject = {
   redistributeKarma: {
     type: Boolean,
     optional: true,
+    defaultValue: false,
     autoform: {
       group: 'voting'
     }
   },
   adminMult: {
     type: String,
-    defaultValue: 1,
+    defaultValue: "1",
     autoform: {
       group: 'voting',
       instructions: 'How much to multiply the admin vote power by.'
