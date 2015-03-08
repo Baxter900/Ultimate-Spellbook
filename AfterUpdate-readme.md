@@ -12,6 +12,6 @@ Check that the redistribute karma setting is correct in lib/vote upvoteItem
 
 Check that the redistribute karma setting is uncommented in collections/settings
 
-Redo the newsletter into:
+Redo the newsletter i18n into:
   "receive_the_best_of": "Sign up for the",
   "right_in_your_inbox": "newsletter and get the best spells emailed to you!",

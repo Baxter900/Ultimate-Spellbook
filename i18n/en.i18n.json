@@ -59,6 +59,8 @@
   "faviconUrl": "Favicon URL",
   "mailURL": "MailURL",
   "postsLayout": "Posts Layout",
+  "redistributeKarma": "Redistribute Karma",
+  "adminMult": "Admin Vote Power Multiplier",
   
   // Settings Fieldsets
   "general": "General",
@@ -71,6 +73,7 @@
   "extras": "Extras",
   "colors": "Colors",
   "integrations": "Integrations",
+  "voting": "Voting and Karma",
 
   // Settings Help Text
 

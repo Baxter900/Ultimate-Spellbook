@@ -184,7 +184,15 @@ settingsSchemaObject = {
     type: Boolean,
     optional: true,
     autoform: {
-      group: 'extras'
+      group: 'voting'
+    }
+  },
+  adminMult: {
+    type: String,
+    defaultValue: 1,
+    autoform: {
+      group: 'voting',
+      instructions: 'How much to multiply the admin vote power by.'
     }
   },
   language: {
