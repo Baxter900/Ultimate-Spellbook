@@ -1,0 +1,15 @@
+{
+  "receive_the_best_of": "Sign up for the",
+  "right_in_your_inbox": "newsletter and get the best spells emailed to you!",
+  "get_newsletter": "Get Newsletter",
+  "thanks_for_subscribing": "Thanks for subscribing!",
+  "newsletter": "newsletter",
+  "showBanner": "Show Banner",
+  "mailChimpAPIKey": "MailChimp API Key",
+  "mailChimpListId": "MailChimp List ID",
+  "postsPerNewsletter": "Posts per Newsletter",
+  "newsletterFrequency": "Newsletter Frequency",
+  "newsletterTime": "Newsletter Time",
+  "enableNewsletter": "Enable Newsletter",
+  "autoSubscribe": "Auto Subscribe"
+}

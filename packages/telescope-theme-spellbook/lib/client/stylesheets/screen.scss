@@ -1,0 +1,11 @@
+body {
+  background-color: #f6e6b4; // Old browsers
+  background-image: linear-gradient(to right,  #FFE29C 0%,#f6e6b4 50%,#FFE29C 100%);
+}
+
+@import "resources/colors";
+
+@import "modules/header";
+@import "modules/posts";
+@import "modules/dropdown";
+@import "modules/comments";

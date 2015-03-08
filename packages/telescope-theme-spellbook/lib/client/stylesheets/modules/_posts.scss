@@ -1,0 +1,36 @@
+
+.post{
+	background: $lightest-blue;
+}
+
+.post-content{
+	.post-sticky{
+		i{
+			color: $text;
+		}
+	}
+}
+.post-heading{
+	.post-title{
+		&:visited{
+			color:$light-text;
+		}
+	}
+	.post-domain{
+		color:$text;
+	}
+}
+
+
+
+.post.sticky{
+	background:$yellow;
+}
+
+.more-button{
+	background:black(0.05);
+	color:white;
+	&:hover{
+		background: black(0.15);
+	}
+}

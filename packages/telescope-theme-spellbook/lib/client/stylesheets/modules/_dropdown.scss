@@ -1,0 +1,17 @@
+
+.has-dropdown .dropdown-menu{
+  &, a, a:link, a:visited{
+    color: $text;
+  }
+  a.button{
+    color: $lighter-blue;
+  }
+  ul{
+    background:$lighter-blue;
+    li{
+      .menu-description{
+        color: $text;
+      }
+    }
+  }
+}

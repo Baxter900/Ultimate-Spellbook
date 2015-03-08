@@ -1,0 +1,65 @@
+.queue-container{
+	ul{
+		background: black(0.05);
+		li{
+			background:$blue;
+		}
+	}
+}
+
+.comment-meta{
+	color:$light-text;
+	.comment-permalink{
+		color:$light-text;
+
+		&:hover:before{
+			color:$blue;
+		}
+	}
+}
+.comment-actions{
+	a{
+		background:white;
+		i{
+			color:$blue;
+		}
+		&:hover{
+			background:$highlight-color;
+			i{
+				color:white;
+			}
+		}
+	}
+	&.upvoted .upvote, &.downvoted .downvote{
+		i{
+			color:$blue;
+		}
+		&:hover{
+			background:white;
+		}
+	}
+	&.downvoted .upvote, &.upvoted .downvote{
+		i{
+			color:$light-text;
+		}
+		&:hover{
+			background:white;
+		}
+	}
+}
+.comment-new{
+	.comment-field{
+	}
+	.comment-submit{
+	}
+	.comment-submit-button{
+		color:$dark-grey;
+	}
+	.comment-page &{
+		background: #ffffff;
+	}
+}
+.comment-deleted{
+	background: white(0.6);
+	color: $light-text;
+}
