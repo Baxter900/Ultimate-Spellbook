@@ -1,0 +1,39 @@
+$small-break: 30em;
+$medium-break: 50em;
+
+@mixin small(){
+  @media screen and (max-width: $small-break) {
+    @content;
+  }
+}
+@mixin medium-large(){
+  @media screen and (min-width: 50em) {
+    @content;
+  }
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #222;
+}
+.container {
+  width: 250px;
+  margin: 10px auto;
+  text-align: center;
+}
+.clock {
+  background: #FFF6D9;
+  opacity: 0.8;
+  width: 250px;
+  margin: 10px auto;
+  padding: 5px 10px;
+}
+.clock h3 {
+  margin: 0;
+  font-weight: 300;
+
+}
+.clock .time {
+  font-size: 180%;
+
+}
